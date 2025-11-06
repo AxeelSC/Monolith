@@ -1,0 +1,6 @@
+@HexagonalModular.API_HostAddress = http://localhost:5049
+
+GET {{HexagonalModular.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
