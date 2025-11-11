@@ -1,6 +1,6 @@
-﻿using HexagonalModular.Application.Interfaces.Auth;
-using HexagonalModular.Application.Interfaces.Users;
-using HexagonalModular.Core.Interfaces__Ports_;
+﻿using HexagonalModular.Application;
+using HexagonalModular.Application.Authentication.Interfaces;
+using HexagonalModular.Application.Users;
 using HexagonalModular.Infrastructure.Persistence;
 using System;
 using System.Collections.Generic;

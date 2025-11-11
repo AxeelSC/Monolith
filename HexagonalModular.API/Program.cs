@@ -5,10 +5,11 @@ using HexagonalModular.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using HexagonalModular.Core.Interfaces__Ports_;
-using HexagonalModular.Application.Interfaces.Auth;
-using HexagonalModular.Application.Interfaces.Security;
 using HexagonalModular.Application.Interfaces.User;
+using HexagonalModular.Application.Authentication.Interfaces;
+using HexagonalModular.Application.Security;
+using HexagonalModular.Application;
+using HexagonalModular.Infrastructure.User;
 
 var builder = WebApplication.CreateBuilder(args);
 

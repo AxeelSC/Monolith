@@ -5,7 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using HexagonalModular.Application.Interfaces.Auth;
+using HexagonalModular.Application.Authentication.Interfaces;
 
 namespace HexagonalModular.Infrastructure.Auth
 {
@@ -18,7 +18,7 @@ namespace HexagonalModular.Infrastructure.Auth
             _configuration = configuration;
         }
 
-        public string GenerateToken(User user)
+        public string GenerateToken(UserDomain user)
         {
  
             var key = _configuration["Jwt:Key"];

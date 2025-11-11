@@ -1,4 +1,4 @@
-﻿using HexagonalModular.Application.Interfaces.Auth;
+﻿using HexagonalModular.Application.Authentication.Interfaces;
 using HexagonalModular.Core.Entities;
 using HexagonalModular.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;

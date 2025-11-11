@@ -1,10 +1,8 @@
-﻿using HexagonalModular.Application.Interfaces.Auth;
-using HexagonalModular.Application.Interfaces.Security;
-using HexagonalModular.Application.UseCases.Auth;
-using HexagonalModular.Application.UseCases.Auth.Login;
-using HexagonalModular.Application.UseCases.Auth.Register;
+﻿using HexagonalModular.Application;
+using HexagonalModular.Application.Authentication.Commands;
+using HexagonalModular.Application.Authentication.Interfaces;
+using HexagonalModular.Application.Security;
 using HexagonalModular.Core.Entities;
-using HexagonalModular.Core.Interfaces__Ports_;
 using HexagonalModular.Core.ValueObjects;
 using System;
 using System.Collections.Generic;
@@ -53,7 +51,7 @@ namespace HexagonalModular.Infrastructure.Auth
 
             var hashedPassword = _passwordHasher.Hash(command.Password);
 
-            var user = new User(command.Name, command.Email, hashedPassword);
+            var user = new UserDomain(command.Name, command.Email, hashedPassword);
 
             await _unitOfWork.Users.AddAsync(user);
 
@@ -61,7 +59,7 @@ namespace HexagonalModular.Infrastructure.Auth
 
             return new RegisterResult(session);
         }
-        private async Task<AuthSession> CreateAuthSessionAsync(User user)
+        private async Task<AuthSession> CreateAuthSessionAsync(UserDomain user)
         {
             var accessToken = _jwtTokenGenerator.GenerateToken(user);
 
