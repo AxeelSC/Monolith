@@ -34,7 +34,7 @@ namespace HexagonalModular.Application.Identity.Authentication.Register
             var emailExists = await _unitOfWork.Users.ExistsByEmailAsync(command.Email.Value);
 
             if (emailExists)
-                return Result<RegisterResult>.Failure(Errors.Users.EmailAlreadyInUse);
+                return Result<RegisterResult>.Failure(Errors.Users.EmailAlreadyInUse(command.Email.Value));
 
             var hashedPassword = _passwordHasher.Hash(command.Password);
             var user = new UserDomain(command.Name, command.Email, hashedPassword);

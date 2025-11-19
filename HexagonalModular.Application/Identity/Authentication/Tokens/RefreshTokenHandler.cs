@@ -29,7 +29,7 @@ namespace HexagonalModular.Application.Identity.Authentication.Tokens
             var storedRefreshToken = await _refreshTokenRepository.GetByTokenAsync(command.RefreshToken);
 
             if (storedRefreshToken == null || storedRefreshToken.ExpirationDate < DateTime.UtcNow)
-                return Result<RefreshTokenResult>.Failure(Errors.Authentication.InvalidRefreshToken);
+                return Result<RefreshTokenResult>.Failure(Errors.Authentication.InvalidRefreshToken(command.RefreshToken));
 
             var user = await _userRepository.GetByIdAsync(storedRefreshToken.UserId);
 

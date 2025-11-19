@@ -19,29 +19,38 @@ namespace HexagonalModular.API.Identity.Auth
         private readonly ILoginHandler _loginHandler;
         private readonly IRegisterHandler _registerHandler;
         private readonly IRefreshTokenHandler _refreshTokenHandler;
-
+        private readonly ILogger<AuthController> _logger;
         public AuthController(
             ILoginHandler loginHandler,
             IRegisterHandler registerHandler,
-            IRefreshTokenHandler refreshTokenHandler)
+            IRefreshTokenHandler refreshTokenHandler,
+            ILogger<AuthController> logger)
         {
             _loginHandler = loginHandler;
             _registerHandler = registerHandler;
             _refreshTokenHandler = refreshTokenHandler;
+            _logger = logger;
         }
 
         [HttpPost("login")]
-        [ProducesResponseType(typeof(ApiResponse<LoginResponseDto>), 200)]
-        [ProducesResponseType(typeof(ApiResponse<object>), 400)]
-        [ProducesResponseType(typeof(ApiResponse<object>), 401)]
+        [ProducesResponseType(typeof(ApiResponse<LoginResponseDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse<LoginResponseDto>), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ApiResponse<LoginResponseDto>), StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<ApiResponse<LoginResponseDto>>> Login([FromBody] LoginRequestDto request)
         {
             if (!ModelState.IsValid)
             {
+                var traceIdInvalid = HttpContext.TraceIdentifier;
+
+                _logger.LogWarning(
+                    "Invalid input data in {Endpoint}. TraceId={TraceId}",
+                    "POST /api/auth/login",
+                    traceIdInvalid);
+
                 return BadRequest(ApiResponse<LoginResponseDto>.ErrorResult(
                     "INVALID_INPUT",
-                    "Invalid input data"
-                ));
+                    "Invalid input data",
+                    traceId: traceIdInvalid));
             }
 
             var emailVo = Email.Create(request.Email);
@@ -49,22 +58,31 @@ namespace HexagonalModular.API.Identity.Auth
 
             var result = await _loginHandler.HandleAsync(command);
 
+            var traceId = HttpContext.TraceIdentifier;
+
             if (result.IsFailure)
             {
                 var error = result.Error!;
+
+                _logger.LogWarning(
+                     "Login failed in {Endpoint}. Code={ErrorCode}, Message={ErrorMessage}, TraceId={TraceId}",
+                     "POST /api/auth/login",
+                     error.Code,
+                     error.Message,
+                     traceId);
 
                 if (error.Code == Errors.Authentication.InvalidCredentials.Code)
                 {
                     return Unauthorized(ApiResponse<LoginResponseDto>.ErrorResult(
                         error.Code,
-                        "Invalid email or password"
-                    ));
+                        "Invalid email or password",
+                        traceId: traceId));
                 }
 
                 return BadRequest(ApiResponse<LoginResponseDto>.ErrorResult(
                     error.Code,
-                    error.Message
-                ));
+                    error.Message,
+                    traceId: traceId));
             }
 
             var loginResult = result.Value!;
@@ -87,15 +105,24 @@ namespace HexagonalModular.API.Identity.Auth
             ));
         }
 
-
+        [HttpPost("register")]
+        [ProducesResponseType(typeof(ApiResponse<RegisterResponseDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse<RegisterResponseDto>), StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<ApiResponse<RegisterResponseDto>>> Register([FromBody] RegisterRequestDto request)
         {
             if (!ModelState.IsValid)
             {
+                var traceIdInvalid = HttpContext.TraceIdentifier;
+
+                _logger.LogWarning(
+                    "Invalid input data in {Endpoint}. TraceId={TraceId}",
+                    "POST /api/auth/register",
+                    traceIdInvalid);
+
                 return BadRequest(ApiResponse<RegisterResponseDto>.ErrorResult(
                     "INVALID_INPUT",
-                    "Invalid input data"
-                ));
+                    "Invalid input data",
+                    traceId: traceIdInvalid));
             }
 
             var emailVo = Email.Create(request.Email);
@@ -103,22 +130,23 @@ namespace HexagonalModular.API.Identity.Auth
 
             var result = await _registerHandler.HandleAsync(registerCommand);
 
+            var traceId = HttpContext.TraceIdentifier;
+
             if (result.IsFailure)
             {
                 var error = result.Error!;
 
-                if (error.Code == Errors.Users.EmailAlreadyInUse.Code)
-                {
-                    return BadRequest(ApiResponse<RegisterResponseDto>.ErrorResult(
-                        error.Code,
-                        error.Message 
-                    ));
-                }
+                _logger.LogWarning(
+                    "Register failed in {Endpoint}. Code={ErrorCode}, Message={ErrorMessage}, TraceId={TraceId}",
+                    "POST /api/auth/register",
+                    error.Code,
+                    error.Message,
+                    traceId);
 
                 return BadRequest(ApiResponse<RegisterResponseDto>.ErrorResult(
                     error.Code,
-                    error.Message
-                ));
+                    error.Message,
+                    traceId: traceId));
             }
 
             var registerResult = result.Value!;
@@ -142,40 +170,57 @@ namespace HexagonalModular.API.Identity.Auth
         }
 
         [HttpPost("refresh-token")]
-        [ProducesResponseType(typeof(ApiResponse<RefreshTokenResponseDto>), 200)]
-        [ProducesResponseType(typeof(ApiResponse<object>), 400)]
-        [ProducesResponseType(typeof(ApiResponse<object>), 401)]
+        [ProducesResponseType(typeof(ApiResponse<RefreshTokenResponseDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse<RefreshTokenResponseDto>), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ApiResponse<RefreshTokenResponseDto>), StatusCodes.Status401Unauthorized)]
+
         public async Task<ActionResult<ApiResponse<RefreshTokenResponseDto>>> RefreshToken(
             [FromBody] RefreshTokenRequestDto request)
         {
             if (!ModelState.IsValid)
             {
+                var traceIdInvalid = HttpContext.TraceIdentifier;
+
+                _logger.LogWarning(
+                    "Invalid input data in {Endpoint}. TraceId={TraceId}",
+                    "POST /api/auth/refresh-token",
+                    traceIdInvalid);
+
                 return BadRequest(ApiResponse<RefreshTokenResponseDto>.ErrorResult(
                     "INVALID_INPUT",
-                    "Invalid input data"
-                ));
+                    "Invalid input data",
+                    traceId: traceIdInvalid));
             }
 
             var command = new RefreshTokenCommand(request.RefreshToken);
 
             var result = await _refreshTokenHandler.HandleAsync(command);
 
+            var traceId = HttpContext.TraceIdentifier;
+
             if (result.IsFailure)
             {
                 var error = result.Error!;
 
-                if (error.Code == Errors.Authentication.InvalidRefreshToken.Code)
+                _logger.LogWarning(
+                    "Refresh token failed in {Endpoint}. Code={ErrorCode}, Message={ErrorMessage}, TraceId={TraceId}",
+                    "POST /api/auth/refresh-token",
+                    error.Code,
+                    error.Message,
+                    traceId);
+
+                if (error.Code == Errors.Authentication.InvalidRefreshTokenCode)
                 {
                     return Unauthorized(ApiResponse<RefreshTokenResponseDto>.ErrorResult(
                         error.Code,
-                        "Invalid or expired refresh token"
-                    ));
+                        "Invalid or expired refresh token",
+                        traceId: traceId));
                 }
 
                 return BadRequest(ApiResponse<RefreshTokenResponseDto>.ErrorResult(
                     error.Code,
-                    error.Message
-                ));
+                    error.Message,
+                    traceId: traceId));
             }
 
             var refreshResult = result.Value!;
