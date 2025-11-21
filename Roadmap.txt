@@ -132,4 +132,16 @@ Ejemplo: Api --> Auth --> AuthController, Request, Responses....
 
 Test: Organiza los tests “mirroring” Application/Domain
 Porque quieres que sea muy fácil encontrar los tests de un caso de uso concreto
-Ejemplo: Identity --> Auth --> Login, Register --> LoginHandlerTest, RegisterHandlerTest...
+Ejemplo: Identity --> Auth --> Login, Register --> LoginHandlerTest, RegisterHandlerTest…
+
+
+Quiero organizar esta semana. Trabajare los 7 días.
+5 a jornada completa y sábado y domingo media jornada.(mañana)
+
+Considero que mi proyecto tiene una base solida pero tengo varios posibles frentes ahora mismo. Te planteo las opciones y quiero que hagas un estudio de que consideras que debería abordar antes. 
+Por un lado podria terminar el sistema de manejo de errores para hacerlo del todo robusto y asegurarme de que tengo total control interno de que pasa y donde falla. 
+Es decir, debería implementar middleware global de expeciones + logs + enriquecer Error.Message internos para que sean mas útiles y descriptivos. (Esta ultima parte logs + errores seria fácil y rápida porque tengo pocos como tal ahora mismo)
+Luego tengo varias features mas por implementar: MFA, Email Verification, Logging con Google y Bloqueo de seguridad tras varios intentos.
+También creo que debería empezar a hacer testing (No estoy seguro de en que fase o en que momento empezar con el testing)
+
+
