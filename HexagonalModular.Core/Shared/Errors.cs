@@ -10,17 +10,46 @@ namespace HexagonalModular.Core.Shared
     {
         public static class Authentication
         {
-            public static readonly Error InvalidCredentials =
-                new("AUTH.INVALID_CREDENTIALS",
-                    "Login failed: invalid credentials in LoginHandler.");
 
-
+            public const string InvalidCredentialsCode = "AUTH.INVALID_CREDENTIALS";
             public const string InvalidRefreshTokenCode = "AUTH.INVALID_REFRESH_TOKEN";
+            public const string EmailAlreadyInUseCode = "AUTH.EMAIL_ALREADY_IN_USE";
+            public const string UserNotFoundCode = "AUTH.USER_NOT_FOUND";
+            public const string AccountLockedCode = "AUTH.ACCOUNT_LOCKED";
+            public const string EmailNotConfirmedCode = "AUTH.EMAIL_NOT_CONFIRMED";
+            public const string TokenGenerationFailedCode = "AUTH.TOKEN_GENERATION_FAILED";
+
+            public static Error InvalidCredentials(string? email = null) =>
+           new(InvalidCredentialsCode,
+               email is null
+                   ? "User login failed: invalid credentials."
+                   : $"User login failed: invalid credentials for '{email}'.");
+
             public static Error InvalidRefreshToken(string? token = null) =>
                 new(InvalidRefreshTokenCode,
                     token is null
-                        ? "Refresh token validation failed in RefreshTokenHandler."
-                        : $"Refresh token validation failed in RefreshTokenHandler. Token={Truncate(token)}");
+                        ? "Refresh token validation failed."
+                        : $"Refresh token validation failed. Token={Truncate(token)}");
+
+            public static Error EmailAlreadyInUse(string email) =>
+                new(EmailAlreadyInUseCode,
+                    $"Registration failed: email '{email}' is already in use.");
+
+            public static Error UserNotFound(Guid userId) =>
+                new(UserNotFoundCode,
+                    $"Authentication failed: user '{userId}' not found.");
+
+            public static Error AccountLocked(string email) =>
+                new(AccountLockedCode,
+                    $"User '{email}' attempted login but account is locked.");
+
+            public static Error EmailNotConfirmed(string email) =>
+                new(EmailNotConfirmedCode,
+                    $"User '{email}' attempted login but email is not confirmed.");
+
+            public static Error TokenGenerationFailed(string reason) =>
+                new(TokenGenerationFailedCode,
+                    $"JWT generation failed: {reason}");
         }
 
         public static class Users
