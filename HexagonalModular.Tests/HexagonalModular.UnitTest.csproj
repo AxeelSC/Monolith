@@ -10,7 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="8.8.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageReference Include="Moq" Version="4.18.3" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -29,7 +31,6 @@
 
   <ItemGroup>
     <Folder Include="Application\" />
-    <Folder Include="Identity\Authentication\Login\" />
     <Folder Include="Identity\Authentication\RefreshToken\" />
     <Folder Include="Identity\Authentication\Register\" />
     <Folder Include="Identity\ValueObjects\" />

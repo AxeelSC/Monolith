@@ -10,6 +10,7 @@ using HexagonalModular.Infrastructure.Identity.Security;
 using HexagonalModular.Infrastructure.Identity.Persistence.Repositories;
 using HexagonalModular.API.Middlewares;
 using Serilog;
+using HexagonalModular.Application.Identity.Authentication.Login;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,10 +18,11 @@ var builder = WebApplication.CreateBuilder(args);
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console() // Log a consola
     .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day) // Log en archivo
+    .Enrich.FromLogContext()
     .CreateLogger();
 
 builder.Host.UseSerilog(); // Usar Serilog en lugar del logger predeterminado de .NET
-
+ 
 /// <summary>
 /// Configura los servicios necesarios para la aplicación,
 /// incluyendo la autenticación JWT, la base de datos PostgreSQL, y los repositorios.

@@ -75,7 +75,7 @@ namespace HexagonalModular.API.Identity.Auth
                 {
                     return Unauthorized(ApiResponse<LoginResponseDto>.ErrorResult(
                         error.Code,
-                        "Invalid email or password",
+                        error.Message,
                         traceId: traceId));
                 }
 

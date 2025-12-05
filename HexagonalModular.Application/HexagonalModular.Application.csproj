@@ -14,6 +14,7 @@
     <Folder Include="Identity\AccountManagement\ConfirmEmail\" />
     <Folder Include="Identity\Security\LockAccount\" />
     <Folder Include="Identity\Security\TwoFactor\" />
+    <Folder Include="Logging\" />
   </ItemGroup>
 
 </Project>

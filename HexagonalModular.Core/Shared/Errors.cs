@@ -19,11 +19,8 @@ namespace HexagonalModular.Core.Shared
             public const string EmailNotConfirmedCode = "AUTH.EMAIL_NOT_CONFIRMED";
             public const string TokenGenerationFailedCode = "AUTH.TOKEN_GENERATION_FAILED";
 
-            public static Error InvalidCredentials(string? email = null) =>
-           new(InvalidCredentialsCode,
-               email is null
-                   ? "User login failed: invalid credentials."
-                   : $"User login failed: invalid credentials for '{email}'.");
+            public static Error InvalidCredentials() =>
+                new(InvalidCredentialsCode, "Invalid email or password.");
 
             public static Error InvalidRefreshToken(string? token = null) =>
                 new(InvalidRefreshTokenCode,

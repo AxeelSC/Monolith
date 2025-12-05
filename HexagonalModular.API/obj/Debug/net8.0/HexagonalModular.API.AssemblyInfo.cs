@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HexagonalModular.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b61d8f1b37a6f50ef13e8435d9765ff6d490ef7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a26eae100d45c4caeb55910e874b2adba34694d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("HexagonalModular.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HexagonalModular.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

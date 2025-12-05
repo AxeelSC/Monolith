@@ -145,3 +145,20 @@ Luego tengo varias features mas por implementar: MFA, Email Verification, Loggin
 También creo que debería empezar a hacer testing (No estoy seguro de en que fase o en que momento empezar con el testing)
 
 
+Bow: Power, Punch, Homing ( i dont get what this does), Detonate, End Step, Hunter
+xbow: Piercing, Quick Charge, Ceaseless (Infinite), Crescendo of bolts, Endless Quiver (All type of arrows infinite), Sharpshooter (Seems incompatible with piercing), Hunter
+
+Venomous 8 (Works on bow and xbow), Chain Lighning 7 (I dont get how it works nor for melee or ranged), Critical Sunder 6 (I guess it also works), True Edge (I dont know), Misanthopy 10 (works on bow and xbow 100%), 
+
+Slayer vs Sharpness, Scavenger, Capturing, Looting, mending, Sweeping Edge
+
+Sharpness or Slayer, Critical Sunder, True Edge?, Misantropy?, Fire Aspect 5, 
+
+
+Escribeme este resumen de la siguiente manera. EN lugar de poner en todo un apartado de WHY/DECISIONS, explicalo brevemente.
+Ejemplo:
+Titulo: Exposicion de informacion al cliente. Capas de seguridad y manejo de errores
+
+Para el control de errores se han llevado a cabo diferentes decisiones. Primero se implementa el uso de result como medida de seguridad y de informacion adicional, etc...Segundo usamos una capa extra con api response de cara al cliente. Tercero usamos un middleware que gestione los errores, cuarto, definimos los errores en un archivo x de la siguiente manera (Explicar decisiones que se han llevado a cabo como el uso de constantes, factory method, conventions, etc) y en cada uno explicas brevemente porque se ha elegido y que aporta. SIn separar por why/decision y sin bloques de codigo de ejemplo.
+
+A
