@@ -1,5 +1,7 @@
-﻿using FluentAssertions;
+﻿using Castle.Core.Logging;
+using FluentAssertions;
 using HexagonalModular.Application.Identity.Authentication.Login;
+using HexagonalModular.Application.Identity.Common.Persistence;
 using HexagonalModular.Application.Identity.Common.Ports;
 using HexagonalModular.Application.Identity.Common.Security;
 using HexagonalModular.Core.Identity.Entities;
@@ -19,6 +21,8 @@ namespace HexagonalModular.UnitTest.Identity.Authentication.Login
             private readonly Mock<IUserRepository> _userRepositoryMock;
             private readonly Mock<IPasswordHasher> _passwordHasherMock;
             private readonly Mock<IJwtTokenGenerator> _jwtTokenGeneratorMock;
+            private readonly Mock<IIdentityUnitOfWork> _unitOfWork;
+            private readonly Mock<ILogger> _logger;
             private readonly LoginHandler _handler;
 
             public LoginHandlerTests()
@@ -26,10 +30,14 @@ namespace HexagonalModular.UnitTest.Identity.Authentication.Login
                 // Mocks
                 _userRepositoryMock = new Mock<IUserRepository>();
                 _passwordHasherMock = new Mock<IPasswordHasher>();
+                _logger = new Mock<ILogger>();
+                _unitOfWork = new Mock<IIdentityUnitOfWork>();
                 _jwtTokenGeneratorMock = new Mock<IJwtTokenGenerator>();
 
                 // Handler to test
                 _handler = new LoginHandler(
+                    _unitOfWork,
+                    _logger,
                     _userRepositoryMock.Object,
                     _passwordHasherMock.Object,
                     _jwtTokenGeneratorMock.Object

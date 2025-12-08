@@ -3,6 +3,7 @@ using HexagonalModular.Application.Identity.Common.Persistence;
 using HexagonalModular.Application.Identity.Common.Ports;
 using HexagonalModular.Application.Identity.Common.Security;
 using HexagonalModular.Core.Shared;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -17,31 +18,34 @@ namespace HexagonalModular.Application.Identity.Authentication.Login
 {
     public class LoginHandler : ILoginHandler
     {
-        private readonly IAuthService _authService;
+        private readonly IUserRepository _userRepository;
         private readonly IIdentityUnitOfWork _unitOfWork;
         private readonly IPasswordHasher _passwordHasher;
-        private readonly IUserRepository _userRepository;
-        private readonly ILoggingService _loggingService;
+        private readonly IAuthService _authService;
+        private readonly ILogger<LoginHandler> _logger;
+
         public LoginHandler(
-             IIdentityUnitOfWork unitOfWork,
-             IPasswordHasher passwordHasher,
+            IUserRepository userRepository,
+            IPasswordHasher passwordHasher,
             IAuthService authService,
-            ILoggingService loggingService)
+            IIdentityUnitOfWork unitOfWork,
+            ILogger<LoginHandler> logger)
         {
             _unitOfWork = unitOfWork;
+            _userRepository = userRepository;
             _passwordHasher = passwordHasher;
             _authService = authService;
-            _loggingService = loggingService;
+            _logger = logger;
         }
 
         public async Task<Result<LoginResult>> HandleAsync(LoginCommand command)
         {
-            var user = await _userRepository.GetByEmailAsync(command.Email.Value);
+            var user = await _userRepository.GetByEmailAsync(command.Email);
             var traceId = "Unknown";  
 
             if (user is null)
             {
-                _loggingService.LogWarning(
+                _logger.LogWarning(
                     "Login failed: user not found for email {Email}",
                     traceId,
                     command.Email.Value);
@@ -51,7 +55,7 @@ namespace HexagonalModular.Application.Identity.Authentication.Login
 
             if (!_passwordHasher.Verify(command.Password, user.PasswordHash))
             {
-                _loggingService.LogWarning(
+                _logger.LogWarning(
                     "Login failed: invalid password for user {UserId}",
                     traceId,
                     user.Id);

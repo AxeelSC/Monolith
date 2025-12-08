@@ -26,6 +26,14 @@ namespace HexagonalModular.Core.Identity.Entities
             PasswordHash = passwordHash;
             IsActive = true;
         }
+        public UserDomain(Guid id, string name, Email email, string passwordHash, bool isActive)
+        {
+            Id = id;
+            Name = name;
+            Email = email;
+            PasswordHash = passwordHash;
+            IsActive = isActive;
+        }
 
         public void ChangePassword(string newHash)
         {

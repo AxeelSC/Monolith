@@ -747,7 +747,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "HexagonalModular.Core": "1.0.0"
+          "HexagonalModular.Core": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
           "bin/placeholder/HexagonalModular.Application.dll": {}
@@ -1953,23 +1954,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Axel1\\.nuget\\packages\\": {},
+    "C:\\Users\\AxelSC\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.API\\HexagonalModular.API.csproj",
+      "projectUniqueName": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\HexagonalModular.API.csproj",
       "projectName": "HexagonalModular.API",
-      "projectPath": "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.API\\HexagonalModular.API.csproj",
-      "packagesPath": "C:\\Users\\Axel1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.API\\obj\\",
+      "projectPath": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\HexagonalModular.API.csproj",
+      "packagesPath": "C:\\Users\\AxelSC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Axel1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AxelSC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1984,14 +1985,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.Application\\HexagonalModular.Application.csproj": {
-              "projectPath": "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.Application\\HexagonalModular.Application.csproj"
+            "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\HexagonalModular.Application.csproj": {
+              "projectPath": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\HexagonalModular.Application.csproj"
             },
-            "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.Core\\HexagonalModular.Core.csproj": {
-              "projectPath": "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.Core\\HexagonalModular.Core.csproj"
+            "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\HexagonalModular.Core.csproj": {
+              "projectPath": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\HexagonalModular.Core.csproj"
             },
-            "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj"
+            "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj"
             }
           }
         }
@@ -2000,7 +2001,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -2042,7 +2049,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -2051,7 +2058,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "HexagonalModular.API depende de Serilog.Sinks.File (>= 6.1.1), pero no se encontró Serilog.Sinks.File 6.1.1. Se resolvió una mejor coincidencia aproximada de Serilog.Sinks.File 7.0.0.",
+      "message": "HexagonalModular.API depende de Serilog.Sinks.File (>= 6.1.1), pero no se encontró Serilog.Sinks.File 6.1.1. Serilog.Sinks.File 7.0.0 se resolvió en su lugar.",
       "libraryId": "Serilog.Sinks.File",
       "targetGraphs": [
         "net8.0"

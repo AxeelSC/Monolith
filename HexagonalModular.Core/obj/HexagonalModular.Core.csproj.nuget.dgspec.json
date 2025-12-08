@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.Core\\HexagonalModular.Core.csproj": {}
+    "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\HexagonalModular.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.Core\\HexagonalModular.Core.csproj": {
+    "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\HexagonalModular.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.Core\\HexagonalModular.Core.csproj",
+        "projectUniqueName": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\HexagonalModular.Core.csproj",
         "projectName": "HexagonalModular.Core",
-        "projectPath": "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.Core\\HexagonalModular.Core.csproj",
-        "packagesPath": "C:\\Users\\Axel1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Axel1\\Desktop\\Axel_PorfolioWeb\\HexagonalModular\\HexagonalModular.Core\\obj\\",
+        "projectPath": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\HexagonalModular.Core.csproj",
+        "packagesPath": "C:\\Users\\AxelSC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Axel1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AxelSC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -60,12 +66,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

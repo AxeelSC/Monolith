@@ -17,10 +17,21 @@ namespace HexagonalModular.Core.Identity.Entities
 
         public RefreshToken(Guid userId, string token, DateTime expirationDate)
         {
+            Id = Guid.NewGuid();
             UserId = userId;
             Token = token;
             ExpirationDate = expirationDate;
             IsRevoked = false;
+            CreatedAt = DateTime.UtcNow;
+        }
+        public RefreshToken(Guid id, Guid userId, string token, DateTime expirationDate, bool isRevoked, DateTime createdAt)
+        {
+            Id = id;
+            UserId = userId;
+            Token = token;
+            ExpirationDate = expirationDate;
+            IsRevoked = isRevoked;
+            CreatedAt = createdAt;
         }
 
         public void Revoke() => IsRevoked = true;

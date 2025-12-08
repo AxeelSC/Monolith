@@ -1,10 +1,8 @@
 ﻿using HexagonalModular.Application.Identity.Common.Persistence;
 using HexagonalModular.Application.Identity.Common.Ports;
 using HexagonalModular.Application.Identity.Common.Security;
-using HexagonalModular.Core.Entities;
 using HexagonalModular.Core.Identity.Entities;
 using HexagonalModular.Core.Shared;
-using HexagonalModular.Core.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,7 +29,7 @@ namespace HexagonalModular.Application.Identity.Authentication.Register
 
         public async Task<Result<RegisterResult>> HandleAsync(RegisterCommand command)
         {
-            var emailExists = await _unitOfWork.Users.ExistsByEmailAsync(command.Email.Value);
+            var emailExists = await _unitOfWork.Users.ExistsByEmailAsync(command.Email);
 
             if (emailExists)
                 return Result<RegisterResult>.Failure(Errors.Users.EmailAlreadyInUse(command.Email.Value));

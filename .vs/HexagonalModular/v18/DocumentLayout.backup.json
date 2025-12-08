@@ -1,0 +1,1091 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE54CE1-31F8-493A-98AE-6B6F0CD64ABD}|HexagonalModular.Tests\\HexagonalModular.UnitTest.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.tests\\identity\\authentication\\login\\loginhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE54CE1-31F8-493A-98AE-6B6F0CD64ABD}|HexagonalModular.Tests\\HexagonalModular.UnitTest.csproj|solutionrelative:hexagonalmodular.tests\\identity\\authentication\\login\\loginhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\authentication\\login\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\authentication\\login\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.infrastructure\\identity\\persistence\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|solutionrelative:hexagonalmodular.infrastructure\\identity\\persistence\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.infrastructure\\identity\\persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|solutionrelative:hexagonalmodular.infrastructure\\identity\\persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.core\\identity\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|solutionrelative:hexagonalmodular.core\\identity\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.core\\identity\\entities\\userdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|solutionrelative:hexagonalmodular.core\\identity\\entities\\userdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\ports\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\ports\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.infrastructure\\identity\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|solutionrelative:hexagonalmodular.infrastructure\\identity\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.infrastructure\\identity\\persistence\\entities\\refreshtokenentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|solutionrelative:hexagonalmodular.infrastructure\\identity\\persistence\\entities\\refreshtokenentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\authentication\\register\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\authentication\\register\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\ports\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\ports\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.infrastructure\\identity\\persistence\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|solutionrelative:hexagonalmodular.infrastructure\\identity\\persistence\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.core\\identity\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|solutionrelative:hexagonalmodular.core\\identity\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\authentication\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\authentication\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\hexagonalmodular.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\hexagonalmodular.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\identity\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\identity\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\identity\\auth\\request\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\identity\\auth\\request\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\ports\\iloginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\ports\\iloginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\authentication\\login\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\authentication\\login\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\authentication\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\authentication\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FE0A98-F73E-4E6D-B7E6-10B34C614AEA}|HexagonalModular.IntegrationTest\\HexagonalModular.IntegrationTest.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.integrationtest\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FE0A98-F73E-4E6D-B7E6-10B34C614AEA}|HexagonalModular.IntegrationTest\\HexagonalModular.IntegrationTest.csproj|solutionrelative:hexagonalmodular.integrationtest\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FE0A98-F73E-4E6D-B7E6-10B34C614AEA}|HexagonalModular.IntegrationTest\\HexagonalModular.IntegrationTest.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.integrationtest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FE0A98-F73E-4E6D-B7E6-10B34C614AEA}|HexagonalModular.IntegrationTest\\HexagonalModular.IntegrationTest.csproj|solutionrelative:hexagonalmodular.integrationtest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE54CE1-31F8-493A-98AE-6B6F0CD64ABD}|HexagonalModular.Tests\\HexagonalModular.UnitTest.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE54CE1-31F8-493A-98AE-6B6F0CD64ABD}|HexagonalModular.Tests\\HexagonalModular.UnitTest.csproj|solutionrelative:hexagonalmodular.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\ports\\irefreshtokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\ports\\irefreshtokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.core\\shared\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|solutionrelative:hexagonalmodular.core\\shared\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.core\\shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|solutionrelative:hexagonalmodular.core\\shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE54CE1-31F8-493A-98AE-6B6F0CD64ABD}|HexagonalModular.Tests\\HexagonalModular.UnitTest.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.tests\\hexagonalmodular.unittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FEE54CE1-31F8-493A-98AE-6B6F0CD64ABD}|HexagonalModular.Tests\\HexagonalModular.UnitTest.csproj|solutionrelative:hexagonalmodular.tests\\hexagonalmodular.unittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.core\\shared\\guidfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|solutionrelative:hexagonalmodular.core\\shared\\guidfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.core\\shared\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|solutionrelative:hexagonalmodular.core\\shared\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\authentication\\tokens\\refreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\authentication\\tokens\\refreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\authentication\\tokens\\refreshtokenresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\authentication\\tokens\\refreshtokenresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\dtos\\authsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\dtos\\authsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\dtos\\loggeduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\dtos\\loggeduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\identity\\auth\\responses\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\identity\\auth\\responses\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\authentication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\authentication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\identity\\auth\\responses\\refreshtokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\identity\\auth\\responses\\refreshtokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\ports\\irefreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\ports\\irefreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\ports\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\ports\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\ports\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\ports\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\authentication\\tokens\\refreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\authentication\\tokens\\refreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\authentication\\register\\registerresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\authentication\\register\\registerresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\identity\\auth\\responses\\registerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\identity\\auth\\responses\\registerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\identity\\auth\\responses\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\identity\\auth\\responses\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.infrastructure\\identity\\persistence\\identityunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|solutionrelative:hexagonalmodular.infrastructure\\identity\\persistence\\identityunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\persistence\\iidentityunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\persistence\\iidentityunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\common\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\common\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.infrastructure\\identity\\security\\bcryptpasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|solutionrelative:hexagonalmodular.infrastructure\\identity\\security\\bcryptpasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.infrastructure\\identity\\security\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|solutionrelative:hexagonalmodular.infrastructure\\identity\\security\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.infrastructure\\identity\\security\\refreshtokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|solutionrelative:hexagonalmodular.infrastructure\\identity\\security\\refreshtokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\ports\\iregisterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\ports\\iregisterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.infrastructure\\identity\\email\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|solutionrelative:hexagonalmodular.infrastructure\\identity\\email\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\hexagonalmodular.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\hexagonalmodular.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.infrastructure\\hexagonalmodular.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{63BF25E3-AB22-4049-B58D-20E88D04903A}|HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj|solutionrelative:hexagonalmodular.infrastructure\\hexagonalmodular.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\ports\\itenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\ports\\itenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\ports\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\ports\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\identity\\auth\\request\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\identity\\auth\\request\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.application\\identity\\common\\security\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EF7C4E-FAF5-4BEC-92CC-42C6BE17CD40}|HexagonalModular.Application\\HexagonalModular.Application.csproj|solutionrelative:hexagonalmodular.application\\identity\\common\\security\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.core\\hexagonalmodular.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E6609BEF-62E5-4BC3-92CB-6A2A3FE93F5B}|HexagonalModular.Core\\HexagonalModular.Core.csproj|solutionrelative:hexagonalmodular.core\\hexagonalmodular.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|c:\\users\\axelsc\\documents\\portfolio dev\\backendhexagonal\\hexagonalmodular.api\\identity\\auth\\request\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5A5D1C-57ED-4345-A16B-9BFB712DED63}|HexagonalModular.API\\HexagonalModular.API.csproj|solutionrelative:hexagonalmodular.api\\identity\\auth\\request\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Infrastructure\\Identity\\Persistence\\Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "HexagonalModular.Infrastructure\\Identity\\Persistence\\Entities\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:47:10.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RefreshTokenEntity.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\Entities\\RefreshTokenEntity.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Infrastructure\\Identity\\Persistence\\Entities\\RefreshTokenEntity.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\Entities\\RefreshTokenEntity.cs",
+              "RelativeToolTip": "HexagonalModular.Infrastructure\\Identity\\Persistence\\Entities\\RefreshTokenEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:46:55.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Tests\\Identity\\Authentication\\Login\\LoginHandlerTests.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Tests\\Identity\\Authentication\\Login\\LoginHandlerTests.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Tests\\Identity\\Authentication\\Login\\LoginHandlerTests.cs",
+              "RelativeToolTip": "HexagonalModular.Tests\\Identity\\Authentication\\Login\\LoginHandlerTests.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwEEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginHandler.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginHandler.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIAwwCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Infrastructure\\Identity\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "HexagonalModular.Infrastructure\\Identity\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Infrastructure\\Identity\\Persistence\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "HexagonalModular.Infrastructure\\Identity\\Persistence\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Ports\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IUserRepository.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Ports\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDomain.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Identity\\Entities\\UserDomain.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Core\\Identity\\Entities\\UserDomain.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Identity\\Entities\\UserDomain.cs",
+              "RelativeToolTip": "HexagonalModular.Core\\Identity\\Entities\\UserDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Identity\\ValueObjects\\Email.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Core\\Identity\\ValueObjects\\Email.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Identity\\ValueObjects\\Email.cs",
+              "RelativeToolTip": "HexagonalModular.Core\\Identity\\ValueObjects\\Email.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADgvyEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Identity\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Core\\Identity\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Identity\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "HexagonalModular.Core\\Identity\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Infrastructure\\Identity\\Persistence\\Repositories\\RefreshTokenRepository.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "HexagonalModular.Infrastructure\\Identity\\Persistence\\Repositories\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterHandler.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterHandler.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterHandler.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterHandler.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAApwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRefreshTokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenRepository.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenRepository.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Program.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Program.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Program.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\appsettings.json",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\appsettings.json",
+              "RelativeToolTip": "HexagonalModular.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-08T11:29:44.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterCommand.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Identity\\Auth\\AuthController.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\AuthController.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Identity\\Auth\\AuthController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwFUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Request\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Identity\\Auth\\Request\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Request\\LoginRequestDto.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Identity\\Auth\\Request\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ILoginHandler.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\ILoginHandler.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Ports\\ILoginHandler.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\ILoginHandler.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Ports\\ILoginHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginResult.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginResult.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginResult.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginResult.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Authentication\\Login\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.IntegrationTest\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.IntegrationTest\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.IntegrationTest\\GlobalUsings.cs",
+              "RelativeToolTip": "HexagonalModular.IntegrationTest\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T12:26:42.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.IntegrationTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.IntegrationTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.IntegrationTest\\UnitTest1.cs",
+              "RelativeToolTip": "HexagonalModular.IntegrationTest\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IRefreshTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenGenerator.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenGenerator.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HexagonalModular.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\HexagonalModular.Application.csproj",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\HexagonalModular.Application.csproj",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\HexagonalModular.Application.csproj",
+              "RelativeToolTip": "HexagonalModular.Application\\HexagonalModular.Application.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-08T11:29:44.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RefreshTokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenHandler.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenHandler.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenHandler.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HexagonalModular.UnitTest.csproj",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Tests\\HexagonalModular.UnitTest.csproj",
+              "RelativeDocumentMoniker": "HexagonalModular.Tests\\HexagonalModular.UnitTest.csproj",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Tests\\HexagonalModular.UnitTest.csproj",
+              "RelativeToolTip": "HexagonalModular.Tests\\HexagonalModular.UnitTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-08T11:29:44.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Errors.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Shared\\Errors.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Core\\Shared\\Errors.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Shared\\Errors.cs",
+              "RelativeToolTip": "HexagonalModular.Core\\Shared\\Errors.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAywBoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "HexagonalModular.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Shared\\Result.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Core\\Shared\\Result.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Shared\\Result.cs",
+              "RelativeToolTip": "HexagonalModular.Core\\Shared\\Result.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAxwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RefreshTokenResult.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenResult.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenResult.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenResult.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Common\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADwv04AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GuidFactory.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Shared\\GuidFactory.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Core\\Shared\\GuidFactory.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Shared\\GuidFactory.cs",
+              "RelativeToolTip": "HexagonalModular.Core\\Shared\\GuidFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Error.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Shared\\Error.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Core\\Shared\\Error.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\Shared\\Error.cs",
+              "RelativeToolTip": "HexagonalModular.Core\\Shared\\Error.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AuthSessionDto.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Dtos\\AuthSessionDto.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Dtos\\AuthSessionDto.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Dtos\\AuthSessionDto.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Dtos\\AuthSessionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoggedUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Dtos\\LoggedUserDto.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Dtos\\LoggedUserDto.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Dtos\\LoggedUserDto.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Dtos\\LoggedUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Responses\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Identity\\Auth\\Responses\\UserResponseDto.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Responses\\UserResponseDto.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Identity\\Auth\\Responses\\UserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Authentication\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Services\\AuthService.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Authentication\\Services\\AuthService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RefreshTokenResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Responses\\RefreshTokenResponseDto.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Identity\\Auth\\Responses\\RefreshTokenResponseDto.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Responses\\RefreshTokenResponseDto.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Identity\\Auth\\Responses\\RefreshTokenResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IRefreshTokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenHandler.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenHandler.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenHandler.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Ports\\IRefreshTokenHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IJwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IJwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Ports\\IJwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IJwtTokenGenerator.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Ports\\IJwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IAuthService.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Ports\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IAuthService.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Ports\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RefreshTokenCommand.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenCommand.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenCommand.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenCommand.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Authentication\\Tokens\\RefreshTokenCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RegisterResult.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterResult.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterResult.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterResult.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Authentication\\Register\\RegisterResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RegisterResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Responses\\RegisterResponseDto.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Identity\\Auth\\Responses\\RegisterResponseDto.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Responses\\RegisterResponseDto.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Identity\\Auth\\Responses\\RegisterResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Responses\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Identity\\Auth\\Responses\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Responses\\LoginResponseDto.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Identity\\Auth\\Responses\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IdentityUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\IdentityUnitOfWork.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Infrastructure\\Identity\\Persistence\\IdentityUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Persistence\\IdentityUnitOfWork.cs",
+              "RelativeToolTip": "HexagonalModular.Infrastructure\\Identity\\Persistence\\IdentityUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IIdentityUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Persistence\\IIdentityUnitOfWork.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Persistence\\IIdentityUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Persistence\\IIdentityUnitOfWork.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Persistence\\IIdentityUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Common\\PagedResult.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Common\\PagedResult.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Common\\PagedResult.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Common\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "BCryptPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Security\\BCryptPasswordHasher.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Infrastructure\\Identity\\Security\\BCryptPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Security\\BCryptPasswordHasher.cs",
+              "RelativeToolTip": "HexagonalModular.Infrastructure\\Identity\\Security\\BCryptPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Security\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Infrastructure\\Identity\\Security\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Security\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "HexagonalModular.Infrastructure\\Identity\\Security\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwBQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RefreshTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Security\\RefreshTokenGenerator.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Infrastructure\\Identity\\Security\\RefreshTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Security\\RefreshTokenGenerator.cs",
+              "RelativeToolTip": "HexagonalModular.Infrastructure\\Identity\\Security\\RefreshTokenGenerator.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IRegisterHandler.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IRegisterHandler.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Ports\\IRegisterHandler.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IRegisterHandler.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Ports\\IRegisterHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "HexagonalModular.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj",
+              "RelativeToolTip": "HexagonalModular.Infrastructure\\HexagonalModular.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-08T11:29:44.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Email\\EmailSender.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Infrastructure\\Identity\\Email\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Infrastructure\\Identity\\Email\\EmailSender.cs",
+              "RelativeToolTip": "HexagonalModular.Infrastructure\\Identity\\Email\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ITenantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\ITenantRepository.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Ports\\ITenantRepository.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\ITenantRepository.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Ports\\ITenantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Ports\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Ports\\IRoleRepository.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Ports\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HexagonalModular.API.csproj",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\HexagonalModular.API.csproj",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\HexagonalModular.API.csproj",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\HexagonalModular.API.csproj",
+              "RelativeToolTip": "HexagonalModular.API\\HexagonalModular.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-08T11:29:44.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Request\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Identity\\Auth\\Request\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Request\\RegisterRequestDto.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Identity\\Auth\\Request\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Security\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.Application\\Identity\\Common\\Security\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Application\\Identity\\Common\\Security\\IPasswordHasher.cs",
+              "RelativeToolTip": "HexagonalModular.Application\\Identity\\Common\\Security\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "HexagonalModular.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\HexagonalModular.Core.csproj",
+              "RelativeDocumentMoniker": "HexagonalModular.Core\\HexagonalModular.Core.csproj",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.Core\\HexagonalModular.Core.csproj",
+              "RelativeToolTip": "HexagonalModular.Core\\HexagonalModular.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-08T11:29:44.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "RefreshTokenRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Request\\RefreshTokenRequestDto.cs",
+              "RelativeDocumentMoniker": "HexagonalModular.API\\Identity\\Auth\\Request\\RefreshTokenRequestDto.cs",
+              "ToolTip": "C:\\Users\\AxelSC\\Documents\\Portfolio Dev\\BackendHexagonal\\HexagonalModular.API\\Identity\\Auth\\Request\\RefreshTokenRequestDto.cs",
+              "RelativeToolTip": "HexagonalModular.API\\Identity\\Auth\\Request\\RefreshTokenRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:29:44.563Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

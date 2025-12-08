@@ -1,11 +1,15 @@
 ﻿
+using HexagonalModular.Application.Identity.Common.Persistence.Entitites;
 using HexagonalModular.Application.Identity.Common.Ports;
+using HexagonalModular.Core.Identity.Entities;
 using Microsoft.EntityFrameworkCore;
+using CoreEmail = HexagonalModular.Core.Identity.ValueObjects.Email;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static HexagonalModular.Core.Shared.Errors;
 
 namespace HexagonalModular.Infrastructure.Identity.Persistence.Repositories
 {
@@ -18,24 +22,56 @@ namespace HexagonalModular.Infrastructure.Identity.Persistence.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<User> GetByIdAsync(Guid id)
+        public async Task<UserDomain?> GetByIdAsync(Guid id)
         {
-            return await _dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
+            var entity = await _dbContext.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(u => u.Id == id);
+
+            return entity is null ? null : MapToDomain(entity);
         }
 
-        public async Task<User> GetByEmailAsync(string email)
+        public async Task<UserDomain?> GetByEmailAsync(CoreEmail email)
         {
-            return await _dbContext.Users.FirstOrDefaultAsync(u => u.Email.Value.ToLower() == email.ToLower());
+            var entity = await _dbContext.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(u => u.Email.ToLower() == email.Value.ToLower());
+
+            return entity is null ? null : MapToDomain(entity);
         }
 
-        public async Task AddAsync(User usuario)
+        public async Task AddAsync(UserDomain user)
         {
-            await _dbContext.Users.AddAsync(usuario);
+            var entity = MapToEntity(user);
+            await _dbContext.Users.AddAsync(entity);
         }
 
-        public async Task<bool> ExistsByEmailAsync(string email)
+        public async Task<bool> ExistsByEmailAsync(CoreEmail email)
         {
-            return await _dbContext.Users.AnyAsync(u => u.Email.Value.ToLower() == email.ToLower());
+            return await _dbContext.Users
+                .AnyAsync(u => u.Email.ToLower() == email.Value.ToLower());
+        }
+
+        private static UserDomain MapToDomain(UserEntity entity)
+        {
+            return new UserDomain(
+                entity.Id,
+                entity.Name,
+                CoreEmail.Create(entity.Email),
+                entity.PasswordHash,
+                entity.IsActive   
+            );
+        }
+
+        private static UserEntity MapToEntity(UserDomain domain)
+        {
+            return new UserEntity
+            {
+                Id = domain.Id,
+                Email = domain.Email.Value,
+                Name = domain.Name,
+                PasswordHash = domain.PasswordHash
+            };
         }
     }
 }
